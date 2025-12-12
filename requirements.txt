@@ -3,3 +3,4 @@
 requests>=2.8.1
 git+https://github.com/petertodd/python-bitcoinlib.git@98676f981bf14a6a3a8313e762161cc289043b58#egg=python-bitcoinlib-0.8.1
 -e .
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
